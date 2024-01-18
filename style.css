@@ -1,0 +1,58 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tiposEventos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titulo1{
+    text-align: center;
+    background-color: aliceblue;
+    background-image: 
+    linear-gradient(aliceblue,white);
+}
+.conceptMet{
+    text-align: center;
+    background-image: 
+    linear-gradient(white,aliceblue);
+}
+.titEvent{
+    text-align: center;
+}
+.eventosMet{
+    padding: 15px;
+    text-align: center;
+}
+.imgEvent{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+footer{
+    color:white;
+    background-color: black;
+}
+main{
+    padding-bottom: 50px;
+}
+#contact{
+    background-color: rgba(128, 128, 128, 0.479);
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 30px;
+
+}
+.iconMetNav{
+    padding:10px;
+}
+@media (max-width: 768px){
+    .tiposEventos{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgEvent{
+        width: 150px;
+        height: 150px;
+    }
+}

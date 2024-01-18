@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Meteorología Aeronáutica</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!--<nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clouds" viewBox="0 0 16 16">
+                <path d="M16 7.5a2.5 2.5 0 0 1-1.456 2.272 3.5 3.5 0 0 0-.65-.824 1.5 1.5 0 0 0-.789-2.896.5.5 0 0 1-.627-.421 3 3 0 0 0-5.22-1.625 5.6 5.6 0 0 0-1.276.088 4.002 4.002 0 0 1 7.392.91A2.5 2.5 0 0 1 16 7.5"/>
+                <path d="M7 5a4.5 4.5 0 0 1 4.473 4h.027a2.5 2.5 0 0 1 0 5H3a3 3 0 0 1-.247-5.99A4.5 4.5 0 0 1 7 5m3.5 4.5a3.5 3.5 0 0 0-6.89-.873.5.5 0 0 1-.51.375A2 2 0 1 0 3 13h8.5a1.5 1.5 0 1 0-.376-2.953.5.5 0 0 1-.624-.492z"/>
+              </svg>
+            Meteorología aplicada a la Aviación
+          </a>
+        </div>
+    </nav>-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <span class="iconMetNav"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-clouds" viewBox="0 0 16 16">
+          <path d="M16 7.5a2.5 2.5 0 0 1-1.456 2.272 3.5 3.5 0 0 0-.65-.824 1.5 1.5 0 0 0-.789-2.896.5.5 0 0 1-.627-.421 3 3 0 0 0-5.22-1.625 5.6 5.6 0 0 0-1.276.088 4.002 4.002 0 0 1 7.392.91A2.5 2.5 0 0 1 16 7.5"/>
+          <path d="M7 5a4.5 4.5 0 0 1 4.473 4h.027a2.5 2.5 0 0 1 0 5H3a3 3 0 0 1-.247-5.99A4.5 4.5 0 0 1 7 5m3.5 4.5a3.5 3.5 0 0 0-6.89-.873.5.5 0 0 1-.51.375A2 2 0 1 0 3 13h8.5a1.5 1.5 0 1 0-.376-2.953.5.5 0 0 1-.624-.492z"/>
+        </svg></span>
+        <a class="navbar-brand" href="#">Meteorología Aeronatica</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://cloudatlas.wmo.int/es/home.html">Apéndice de nubes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+        <div>
+        <h1 class="titulo1">METEOROLOGIA AERONAUTICA</h1>
+        <p class="conceptMet">La meteorología aeronáutica es una rama especializada de la meteorología que se centra en el estudio del clima y los fenómenos atmosféricos que pueden afectar la seguridad de los vuelos. Los meteorólogos aeronáuticos utilizan diversas fuentes de información, incluyendo datos de satélite, radar y estaciones meteorológicas terrestres, para obtener una comprensión detallada de las condiciones climáticas en una zona determinada.</p>
+        </div>
+    </header>
+    <main>
+        <section class="eventosMet">
+            <h2 class="titEvent">Eventos Meteorológicos</h2>
+            <p>La información proporcionada por los meteorólogos aeronáuticos es esencial para garantizar la seguridad y la eficiencia de los vuelos. Algunas de las formas en que la meteorología aeronáutica puede afectar el vuelo son:</p>
+            <div class="tiposEventos">
+              <div class="turbulencia">
+                <p>Turbulencias</p>
+                <img class="imgEvent" src="./imagesProject/turb.jpeg" alt="avionYnubes">
+                </div>
+              <div>
+                <p>Engelamiento</p>
+                <img class="imgEvent" src="./imagesProject/engelamiento.jpeg" alt="hieloEnAla">
+              </div>
+              <div>
+                <p>Visibilidad</p>
+                <img class="imgEvent" src="./imagesProject/visibilidad.jpg" alt="niebla">
+              </div>
+              <div>
+                <p>Vientos</p>
+                <img class="imgEvent" src="./imagesProject/viento-cruzado.jpg" alt="avionYvientoCruzado">
+              </div>
+            </div>
+         </section>
+         <section>
+            <div>
+                <h2 class="titEvent">NUBES</h2>
+                <p>Son un conjunto o asociación, grande o pequeña, de gotitas de agua (y a veces también de cristales de hielo) producto de un gran proceso de condensación. Se presentan con los más variados colores, aspectos y dimensiones, según las altitudes en que aparecen y las características particulares de la condensación.</p>
+                <h3>Clasificacion de las Nubes</h3>
+                <p>Las nubes, han sido clasificadas desde hace ya mucho tiempo, en diez (10) géneros principales, teniendo en cuenta su forma, admitiéndose también subdivisiones en especies y variedades. A su vez se han dividido en cuatro (4) grupos de acuerdo a la altura de la base de cada tipo de nube.</p>
+        </div>
+            <div class="tiposNubes">
+            <div class="row row-cols-1 row-cols-md-5 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./imagesProject/nubes cirrus.jpg" class="card-img-top" alt="nubeCirrus">
+                    <div class="card-body">
+                      <h5 class="card-title">CIRRUS (Ci)</h5>
+                      <p class="card-text">Son nubes separadas, en forma de filamentos blancos y delicados o en forma de bancos, o de cabellos o de bandas angostas.</p>
+                      <p>Se encuentran a una altura que oscila entre 6 a 12 km y están compuestas por cristales de hielo, ya que a esa altura la temperatura es de –20 °C a –60 ºC.</p>
+                      <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./imagesProject/nubes cirrustratos.jpg" class="card-img-top" alt="nubeCirrustratos">
+                    <div class="card-body">
+                      <h5 class="card-title">CIRROSTRATUS (Cs)</h5>
+                      <p class="card-text">Capa o velo nuboso transparente y blanquecino, de aspecto fibroso o liso, que cubre total o parcialmente el cielo produciendo generalmente fenómenos de halo.</p>
+                      <p>También están asociados a frentes y por lo general se mueven de oeste a este.</p>
+                      <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./imagesProject/nubes cirrocumulos.jpg" class="card-img-top" alt="nubeCirrocumulos">
+                    <div class="card-body">
+                      <h5 class="card-title">CIRROCUMULUS (Cc)</h5>
+                      <p class="card-text">Banco, manto o capa delgada de nubes blancas, sin sombras propias, compuestas por elementos muy pequeños, en forma de grumos, de rizos, de granos de arroz, etc. Pueden estar soldados o no y dispuestos más o menos regularmente.</p>
+                      <p>Suelen estar acompañados de Cirrus.</p>
+                      <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./imagesProject/nubes altocumulus.jpg" class="card-img-top" alt="nubesAltocumulus">
+                    <div class="card-body">
+                      <h5 class="card-title">ALTOCUMULUS (Ac)</h5>
+                      <p class="card-text">Banco, capa o manto de nubes, blanco, gris o ambos colores a la vez.Generalmente tienen sombras propias y los elementos que los componen tienen apariencia de láminas, guijarros, rollos, empedrados, etc... los que a veces son en parte fibrosos o difusos, y que pueden estar soldados o no. </p>
+                      <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./imagesProject/nubes altrostratus.jpg" class="card-img-top" alt="nubeAltostratus">
+                      <div class="card-body">
+                        <h5 class="card-title">ALTOSTRATUS (As)</h5>
+                        <p class="card-text">Capa o manto nuboso, grisáceo o azulado, de aspecto estriado, fibroso o uniforme, que cubre entera o parcialmente el cielo. Tiene partes bastante delgadas como para permitir que se observe el Sol en forma difusa, como a través de un vidrio esmerilado.</p>
+                        <p>Este tipo de nubes difunde tanto la luz del Sol, que las sombras se hacen muy difusas, llegando en algunos casos a desaparecer.</p>
+                        <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./imagesProject/nubes Stratus.jpg" class="card-img-top" alt="nubesStratus">
+                      <div class="card-body">
+                        <h5 class="card-title">STRATUS (St)</h5>
+                        <p class="card-text">Capa nubosa, generalmente gris. De base uniforme, que puede dar lugar lloviznas. Cuando el Sol es visible a través de estas nubes, su contorno se destaca claramente.</p>
+                        <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="./imagesProject/nubes stratocumulus.jpg" class="card-img-top" alt="nubesStratocumulus">
+                      <div class="card-body">
+                        <h5 class="card-title">STRATOCUMULUS (Sc)</h5>
+                        <p class="card-text">Banco, manto o capa de nubes grises o blanquecinas, o grises y blanquecinas a la vez que casi siempre tienen partes sombreadas compuestas de mosaicos, guijarros, rollos, etc., sin aspecto fibroso y que pueden estar o no soldadas entre sí. </p>
+                        <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="./imagesProject/nubes nimboatratus.jpeg" class="card-img-top" alt="nubesNimbostratus">
+                      <div class="card-body">
+                        <h5 class="card-title">NIMBOSTRATUS (Ns)</h5>
+                        <p class="card-text">Capa nubosa gris, frecuentemente oscura, cuyo aspecto resulta difuso por la lluvia o nieve que cae en forma más o menos continua y que en la mayoría de los casos, llega al suelo. El espesor de estas nubes es suficiente como para ocultar el Sol.</p>
+                        <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="./imagesProject/nubes cumulus.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">CUMULUS (Cu)</h5>
+                        <p class="card-text">Nubes separadas, generalmente densas y de contornos bien definidos. Se desarrollan verticalmente, en forma de promontorios cúpulas o torres y cuya parte superior saliente se asemeja a una coliflor.</p>
+                        <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="./imagesProject/nubes cumulonimbus.jpeg" class="card-img-top" alt="nubesCumulanimbus">
+                      <div class="card-body">
+                        <h5 class="card-title">CUMULONUMBUS (Cb)</h5>
+                        <p class="card-text">Nube densa, potente y gigantesca. Tiene considerable desarrollo vertical y aparece en forma de montaña o de torres enormes. Por lo menos una porción de su parte superior suele ser lisa, fibrosa o estriada y casi siempre achatada. Su parte superior, muchas veces se extiende en forma de yunque o de un gran penacho.</p>
+                        <a href="https://cloudatlas.wmo.int/es/home.html" class="btn btn-dark position-absolute bottom-0 end-0">Ver apéndice</a>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+            </div>
+        </section>
+        <section class="row align-items-center backgroundBlue" id="contact">
+          <div class="col-lg-6 col-sm-12">
+            <h2 class="fontWhite">Tenes fotos de nubes?</h2>
+            <p class="text-white">Si te gusta fotografiar el cielo envianos tus fotos y animate a clasificar las nubes con nosotros!</p>
+          </div>
+          <div class="col-lg-6 col-sm-12 ">
+            <h2 class="fontWhite">Completá el formulario y contactanos</h2>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputName" class="form-label fw-bold ">Tu nombre</label>
+                <input type="text" class="form-control" id="exampleInputName" aria-describedby="textHelp" placeholder="Sebastian Prieto">
+  
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label fw-bold ">Direccion de e-mail:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@ejemplo.com">
+              </div>
+              <div class="mb-3 ">
+                <label class="form-label fw-bold " for="exampleCheck1">Escrbinos un comentario y adjuntanos tus fotos..</label>
+                <textarea class="form-control" name="message" id="message" placeholder="Ingresa aqui tu mensaje.."></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark viewWorkBtn rounded-0"> Enviar <i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+          </div>
+          
+        </section>
+    </main>
+    <footer class="container-fluid viewWorkBtn p-4">
+        <div class="row justify-content-center px-5">
+          <p class="col-lg-6 col-sm-12 text-center">
+            Copyright &copy; 2024 <span class="fontBLue"></span>All Rights Reserved. Designed by PrietoSebastian-Developer.
+          </p>
+          
+        </div>
+    </footer>
+
+</body>
+</html>
